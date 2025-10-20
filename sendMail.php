@@ -50,7 +50,7 @@ try {
     // -----------------------------
     $mail->setFrom('karma.cruise.info@gmail.com', 'Karma Cruise Enquiry'); // Sender
     $mail->addReplyTo($email, "$firstName $lastName");                       // Reply-to user
-    $mail->addAddress('yourtestemail@gmail.com');                            // Recipient
+    $mail->addAddress('lokeshyadav31290@gmail.com');                            // Recipient
 
     $mail->Subject = 'New Cruise Enquiry';
     $mail->Body = <<<EOT
